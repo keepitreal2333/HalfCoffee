@@ -1,0 +1,63 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: MicrosoftYaHei;}
+ul,li{list-style: none;}
+/*---------header----------*/
+#header{width: 100%; height: 650px; background-image: url(../images/首页/一半咖啡---副本_01.gif); background-size: 100% 100%; min-width: 1200px;}
+#header .headerTitle{width: 1200px; height: 570px; margin: 0 auto; border-radius: 10px; background-image: url(../images/首页/一半咖啡---副本_07.gif); background-repeat: no-repeat;}
+/*header hover*/
+#header .headerNav li:hover a{color: #cc9966;}
+/*------------header end-------------*/
+/*----------------contain-------------------*/
+#contain{width: 1200px; margin: 0 auto;}
+#contain .product{width: 100%;}
+/*contain product*/
+#contain .product .copy3{background-image: url(../images/首页/一半咖啡---副本_03.gif);}
+#contain .product .goods li{position: relative; display: inline-block; width: 285px; height: 326px;}
+#contain .product .goods li.goodsLeft{margin-right: 15px;}
+#contain .product .goods li .goodsImg{width: 283px; height: 324px; border: 1px solid #fafafa;}
+#contain .product .goods li .goodsImg1{background: url(../images/首页/一半咖啡---副本_09.gif);}
+#contain .product .goods li .goodsImg2{background: url(../images/首页/一半咖啡---副本_11.gif);}
+#contain .product .goods li .goodsImg3{background: url(../images/首页/一半咖啡---副本_04.gif);}
+#contain .product .goods li .goodsImg4{background: url(../images/首页/一半咖啡---副本_06.gif);}
+#contain .product .goods li span{display: block; text-align: center;}
+#contain .product .goods li span.chin{font-size: 24px; color: #676767; margin-top: 236px;}
+#contain .product .goods li span.eng{font-size: 24px; color: #989898; margin-top: 4px;}
+/*contain product hover*/
+#contain .product .goods li .goodsImg:hover{border: 1px solid #ccad8f; border-radius: 10px; color: #cc9966;}
+#contain .product .goods li .goodsImg:hover span{color: #cc9966;}
+/*contain newproduct*/
+#contain .newProduct{width: 100%;}
+#contain .newProduct .copy5{background-image: url(../images/首页/一半咖啡---副本_05.gif);}
+#contain .newProduct ul{position: relative; width: 1140px; height: 400px; margin: 0 auto;}
+#contain .newProduct ul li{position: absolute;}
+#contain .newProduct ul li.left{left:-18px; top: 200px; width: 18px; height: 21px; background-image: url(../images/首页/一半咖啡---副本_10.gif); cursor: pointer;}
+#contain .newProduct ul li.right{right:-18px; top: 200px; width: 18px; height: 21px; background-image: url(../images/首页/一半咖啡---副本_12.gif); cursor: pointer;}
+#contain .newProduct ul li.show{width: 1140px; height: 400px;}
+#contain .newProduct ul li.show div{position: absolute; overflow: hidden; border-radius: 10px;}
+#contain .newProduct ul li.show div img{transition: transform 1s; cursor: pointer;}
+#contain .newProduct ul li.show div img:hover{transform: scale(1.1,1.1);}
+#contain .newProduct ul li.show .size1{width: 285px; height: 400px; z-index: 3}
+#contain .newProduct ul li.show .size2{width: 240px; height: 337px; top: 31px; z-index: 2}
+#contain .newProduct ul li.show .size3{width: 210px; height: 295px; top: 53px; z-index: 1}
+#contain .newProduct ul li.show .pos1{left: 68px;}
+#contain .newProduct ul li.show .pos2{left: 228px;}
+#contain .newProduct ul li.show .pos3{left: 428px;}
+#contain .newProduct ul li.show .pos4{right: 228px;}
+#contain .newProduct ul li.show .pos5{right: 68px;}
+/*contain journalism*/
+#contain .journalism{width: 100%;}
+#contain .journalism .copy29{width: 285px; height: 124px; margin: 0 auto; background-image: url(../images/首页/一半咖啡---副本_29.gif);}
+#contain .journalism .intro .knCoffee .containImg{width: 560px; height: 280px;} 
+#contain .journalism .intro .knCoffee .CoffeeIntro{width: 500px; float: left; margin-top: 60px;}
+#contain .journalism .intro i{font-style: normal; letter-spacing: 2px;}
+#contain .intro span.CoffeeTitle{font-size: 20px; letter-spacing: 12px; font-weight: bold; line-height: 40px;}
+#contain .intro span.CoffeeCon{font-size: 14px; letter-spacing: 8px; line-height: 24px;}
+/*contain journalism a*/
+#contain .journalism .intro .knCoffee .CoffeeIntro .CoffeeCon a{color: rgb(102,102,102);}
+#contain .journalism .intro .knCoffee .CoffeeIntro .CoffeeTitle a{color: rgb(51,51,51); }
+/*------------contain end-------------*/
+/*----------------footer-----------------*/
+#footer{position: relative; width: 100%; height: 65px; margin-top: 40px; overflow: hidden;}
+#footer .footerBack{position: absolute; left: -304px; width: 100%;}
+#footer p{position: absolute; left: 277px; font-size: 12px; color: #666666; font-family: SimSun; line-height: 65px;}
+#footer p span{display: inline-block;width: 25px;}
