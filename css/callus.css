@@ -1,0 +1,14 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+/*----------header---------------*/
+#header{height: 80px; background-color: #cc9966;}
+/*------------contain------------*/
+#contain .map{padding-top: 10px; padding-bottom: 20px;}
+#contain ul{margin: 0 30px;}
+#contain ul li{position: relative; float: left; margin-bottom: 30px;}
+#contain ul li.mr165{margin-right: 165px;}
+#contain ul li .aTitle{font-size: 20px; color: #333333; line-height: 43px; letter-spacing: 2px;}
+#contain ul li .aTitle img{position: absolute; right: 3px; top: 14px;}
+#contain ul li .address{font-size: 14px; color: #666666; line-height: 23px; letter-spacing: 1px;}
+#contain ul li .address span{margin-right: 5px;}

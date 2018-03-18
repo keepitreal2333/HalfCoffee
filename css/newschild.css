@@ -1,0 +1,13 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+/*----------------------header-------------------*/
+#header{height: 80px; background-color: #cc9966;}
+/*---------------header end-------------------*/
+/*-------------contain-----------*/
+#contain{height: 977px;}
+#containBox .title{margin-top: 40px; margin-bottom: 20px; font-size: 24px; color: #333; text-align: center; letter-spacing: 12px;}
+#containBox .date{margin-bottom: 20px; font-size: 14px; color: #666666; text-align: center;}
+#containBox img{margin-bottom: 10px; margin-left: 375px;}
+#containBox .text{margin: 5px 30px 30px; color: #666666; font-size: 14px; letter-spacing: 1px; line-height: 25px;}
+/*------------contain end---------------*/

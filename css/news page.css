@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+/*---------header---------*/
+#header{height: 500px; background-image: url(../images/新闻/新闻_01.gif);}
+/*------------header end--------------*/
+/*----------------------------contain-----------------*/
+#contain{height: 1109px;}
+#containBox .containhead .coffeeTitle{background-image: url(../images/新闻/新闻_02.gif);}
+#containBox ul{padding-top: 20px;}
+#containBox ul .line{width: 1140px; height: 1px; margin: 0 auto; background-color: rgb(234,234,234);}
+#containBox ul li{margin:20px 30px;}
+#containBox ul li .containImg{float: left; width: 450px; height: 220px; overflow: hidden; border-radius: 10px; margin-right: 60px;}
+#containBox ul li img{transition: transform 2s;}
+#containBox ul li p{position: relative; float: left; width: 616px; padding-top: 20px;}
+#containBox ul li p span{display: inline-block;}
+#containBox ul li p span.theTitle{font-size: 24px; color: #333; letter-spacing: 12px; line-height: 50px;}
+#containBox ul li p span.theTitle i{font-style: normal; letter-spacing: 4px;}
+#containBox ul li p span.thecontent{font-size: 18px; color: #666; letter-spacing: 4px; line-height: 30px;}
+#containBox ul li p span.date{position: absolute; bottom: -34px; right: -10px; color: #999; font-size: 14px;}
+/*-------------a-----------------*/
+#containBox ul li p span.theTitle a{color: #333;}
+#containBox ul li p span.thecontent a{color: #666;}
+/*--------------hover------------*/
+#containBox ul li .containImg img:hover{transform: scale(1.2,1.2);}
+/*--------------------contain end--------------------*/

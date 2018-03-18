@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+body{background: #fafafa;}
+a{text-decoration: none;}
+#index{position: relative;}
+/*--------header--------*/
+#header .headerNav{position: relative; width: 1200px; margin: 0 auto;}
+#header .headerNav .logo{width: 50px; height: 50px; display: inline-block; margin-right: 570px; background-image: url(../images/首页/一半咖啡---副本_02.gif); vertical-align: middle;}
+#header .headerNav li{position: relative; width: 70px; height: 78px; display: inline-block; margin: 0 20px; font-family: MicrosoftYaHei; font-size: 16px; line-height: 78px; text-align: center; cursor: pointer;}
+#header .headerNav li.borderwhite{border-bottom: 2px solid white;}
+#header .headerNav li:hover{border-bottom: 2px solid rgba(0,0,0,0);}
+#header .headerNav li a{color: #ffffff;}
+/*---------contain---------------*/
+#contain .productTitle{width: 393px; height: 54px; margin: 50px auto 30px;}
+#contain .intro img{transition: transform 2s;}
+#contain .intro span{display: block;}
+#contain .intro .knCoffee{width: 1200px; margin: 0 auto;}
+#contain .intro .knCoffee .containImg{float: left; overflow: hidden; border-radius: 10px;}
+#contain .intro .knCoffee .mgL1{margin-left: 65px;}
+#contain .intro .knCoffee .mgL2{margin-left: 40px; margin-right: 40px; padding-left: 30px;}
+#contain .intro .knCoffee .mgL3{margin-left: 30px;}
+#contain .intro .mb1{margin-bottom: 20px;}
+#contain .clear{clear: both;}
+/*---------hover--------------*/
+#contain .intro img:hover{transform: scale(1.2,1.2);}
